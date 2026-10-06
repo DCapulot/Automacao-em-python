@@ -23,8 +23,6 @@ pyautogui.write("senha")
 pyautogui.press("tab")
 pyautogui.press("enter")
 
-#pip install panda openpyxl
-
 time.sleep(4)
 
 tabela = pandas.read_csv("produtos.csv")
